@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff6f6;
+}
+
+h1 {
+    margin-left: 550px;
+    color: rgb(14, 11, 11);
+}
+
+ul {
+    list-style-type: none;
+    /* margin-left: 550px; */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
