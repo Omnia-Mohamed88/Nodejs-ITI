@@ -1,0 +1,14 @@
+html
+  head
+    title Todos
+    link(rel="stylesheet", href="/style.css")
+  body
+    header
+      h1 Todos List
+    main
+      ul
+        each todo in list
+          li
+            .todo-item
+              span.title Title: #{todo.title}
+              span.status Status: #{todo.status}
